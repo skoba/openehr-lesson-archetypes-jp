@@ -15,6 +15,7 @@
     "conversionDetails" : { },
     "otherDetails" : {
       "MD5-CAM-1.0.1" : "dbde2d9376b4ed4deaa53ea3d194c0c6",
+      "PARENT:MD5-CAM-1.0.1" : "828E3A9242B5A392FFB0A74D4AC7F494",
       "sem_ver" : "0.0.2",
       "build_uid" : "980dfb0a-cee0-4c99-9bb0-b34f3f7db081"
     },
