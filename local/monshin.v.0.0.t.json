@@ -20,7 +20,8 @@
       "original_publisher" : "",
       "custodian_namespace" : "",
       "sem_ver" : "0.1.0",
-      "MD5-CAM-1.0.1" : "f6ab1059210efbbed824849c54a059bb"
+      "MD5-CAM-1.0.1" : "f6ab1059210efbbed824849c54a059bb",
+      "PARENT:MD5-CAM-1.0.1" : "44D94C2952391723BB72523E4132FF1C"
     },
     "details" : {
       "de" : {
@@ -369,7 +370,9 @@
       "ipAcknowledgements" : { },
       "references" : { },
       "conversionDetails" : { },
-      "otherDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "B28E97DF6505CC4BE620468E64D78E59"
+      },
       "details" : { }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.height.v2",
@@ -820,7 +823,9 @@
       "ipAcknowledgements" : { },
       "references" : { },
       "conversionDetails" : { },
-      "otherDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "87C7C42F0886971EA090D4CE1144DD56"
+      },
       "details" : { }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.body_weight.v2",
@@ -1910,7 +1915,9 @@
       "ipAcknowledgements" : { },
       "references" : { },
       "conversionDetails" : { },
-      "otherDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "FD987B3E266674827EB7BAA6D1ED26A8"
+      },
       "details" : { }
     },
     "parentArchetypeId" : "openEHR-EHR-EVALUATION.reason_for_encounter.v1",
@@ -2026,7 +2033,9 @@
       "ipAcknowledgements" : { },
       "references" : { },
       "conversionDetails" : { },
-      "otherDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "3A1B4D8A5FDB61199F2DA05400462F93"
+      },
       "details" : { }
     },
     "parentArchetypeId" : "openEHR-EHR-OBSERVATION.story.v1",
@@ -2235,7 +2244,9 @@
       "ipAcknowledgements" : { },
       "references" : { },
       "conversionDetails" : { },
-      "otherDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "992D12C3AF99DEDDBD95FA1E47674412"
+      },
       "details" : { }
     },
     "parentArchetypeId" : "openEHR-EHR-CLUSTER.symptom_sign.v1",
