@@ -20,11 +20,10 @@ language
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
 			author = <
-				["name"] = <"Mikkel Johan Gaup Grønmo">
-				["organisation"] = <"Forvaltningssenter EPJ, Helse-Nord">
-				["email"] = <"mikkel.johan.gaup.gronmo@helse-nord.no">
+				["name"] = <"Kobayashi Shinji">
+				["organisation"] = <"NPO openEHR Japan">
+				["email"] = <"skoba@openehr.jp">
 			>
-			accreditation = <"Nasjonal IKT">
 		>
 	>
 
@@ -70,7 +69,7 @@ A typical nursing progress note during a hospital episode might include EVALUATI
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"8399d36d234518cd3a46ef34e15b0b47">
+		["MD5-CAM-1.0.1"] = <"fb52510442bb1301b0a3767e657c2486">
 		["build_uid"] = <"fba771b3-54c6-4bf6-97eb-12c3f52af0fd">
 		["revision"] = <"0.0.1-alpha">
 	>
