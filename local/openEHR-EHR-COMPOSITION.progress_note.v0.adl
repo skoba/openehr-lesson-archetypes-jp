@@ -24,6 +24,11 @@ language
 			>
 			accreditation = <"Nasjonal IKT">
 		>
+		["ja"] = <
+			language = <[ISO_639-1::ja]>
+			author = <
+			>
+		>
 	>
 
 description
@@ -51,6 +56,10 @@ Ein typischer Fortschrittsbericht während einer Krankenhausepisode für die Kra
 
 Et typisk fortløpende sykepleienotat under en innleggelse kan inkludere EVALUATION.reason_for_encounter, EVALUATION.progress_note for å registrere en fritekstlig oppsummering fra vaktskiftet, en kombinasjon av OBSERVATIONS for å registrere vitaltegn, målinger og/eller ACTIONS for å registrere planer eller prosedyrer som ble utført.">
 		>
+		["ja"] = <
+			language = <[ISO_639-1::ja]>
+			copyright = <"© openEHR Foundation">
+		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
 			purpose = <"To record details of health-related events that have occurred as part of the subject's care, and/or the subject's health status, findings, opinions and plans that are current at the time of recording.">
@@ -68,7 +77,7 @@ A typical nursing progress note during a hospital episode might include EVALUATI
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"828E3A9242B5A392FFB0A74D4AC7F494">
+		["MD5-CAM-1.0.1"] = <"5e1094cc2bef3678ad660ffa960d717d">
 		["build_uid"] = <"fba771b3-54c6-4bf6-97eb-12c3f52af0fd">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -82,6 +91,9 @@ definition
 				}
 			}
 		}
+		context matches {
+			EVENT_CONTEXT[at0001] matches {*}    -- Event Context
+		}
 	}
 
 ontology
@@ -92,6 +104,10 @@ ontology
 					text = <"Progress Note">
 					description = <"Document used to record details of health-related events that have occurred as part of the subject's care, and/or the subject's health status, findings, opinions and plans that are current at the time of recording.">
 				>
+				["at0001"] = <
+					text = <"Event Context">
+					description = <"">
+				>
 			>
 		>
 		["de"] = <
@@ -100,6 +116,10 @@ ontology
 					text = <"Fortschrittsbericht">
 					description = <"Ein Dokument, das zur Repräsentation gesundheitsbezogener Ereignisse dient, die im Rahmen der Pflege und/oder des Gesundheitszustands des Patienten aufgetreten sind, der Befunde, Gutachten und Plänen, die zum Zeitpunkt der Aufzeichnung aktuell sind.">
 				>
+				["at0001"] = <
+					text = <"*Event context (en)">
+					description = <"">
+				>
 			>
 		>
 		["nb"] = <
@@ -107,6 +127,22 @@ ontology
 				["at0000"] = <
 					text = <"Fortløpende notat">
 					description = <"Dokument brukt for å registrere detaljer om helserelaterte hendelser som har hendt som ledd i omsorg av et individ og/eller individets helsestatus, funn, meninger eller planer som er gyldig på tidspunktet det registreres.">
+				>
+				["at0001"] = <
+					text = <"*Event context (en)">
+					description = <"">
+				>
+			>
+		>
+		["ja"] = <
+			items = <
+				["at0000"] = <
+					text = <"経過記録">
+					description = <"*Document used to record details of health-related events that have occurred as part of the subject's care, and/or the subject's health status, findings, opinions and plans that are current at the time of recording. (en)">
+				>
+				["at0001"] = <
+					text = <"*Event Context (en)">
+					description = <"">
 				>
 			>
 		>
