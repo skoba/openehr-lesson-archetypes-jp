@@ -595,13 +595,13 @@ Weed LL. Medical records that guide and teach. N Engl J Med. 1968 Mar 14;278(11)
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"255ec7a86eba477614659a5f02251830">
+		["MD5-CAM-1.0.1"] = <"c2fca78a3f5a30be98949dad1f9e1b82">
 		["build_uid"] = <"3dad3e6a-4444-4069-b22b-aed20b9c7377">
 		["revision"] = <"1.1.1">
 	>
 
 definition
-	EVALUATION[at0000.1] matches {    -- Problem/Diagnosis
+	EVALUATION[at0000.1] matches {    -- Problem/Diagnosis for Japan
 		data matches {
 			ITEM_TREE[at0001] matches {    -- structure
 				items cardinality matches {1..*; unordered} matches {
@@ -827,7 +827,7 @@ If the anatomical location is included in the Problem/diagnosis name via precoor
 					comment = <"*Also known as 'aetiology' or 'etiology'. Coding with an external terminology is preferred, where possible.(en)">
 				>
 				["at0000.1"] = <
-					text = <"*Problem/Diagnosis(en)">
+					text = <"*Problem/Diagnosis for Japan (en)">
 					description = <"*Details about a single identified health condition, injury, disability or any other issue which impacts on the physical, mental and/or social well-being of an individual.(en)">
 					comment = <"*Clear delineation between the scope of a problem versus a diagnosis is not easy to achieve in practice. For the purposes of clinical documentation with this archetype, problem and diagnosis are regarded as a continuum, with increasing levels of detail and supportive evidence usually providing weight towards the label of 'diagnosis'.(en)">
 				>
@@ -951,7 +951,7 @@ Si la localización anatómica está incluida en el nombre del problema o diagn�
 					comment = <"*Also known as 'aetiology' or 'etiology'. Coding with an external terminology is preferred, where possible.(en)">
 				>
 				["at0000.1"] = <
-					text = <"Problema/Diagnóstico">
+					text = <"*Problem/Diagnosis for Japan (en)">
 					description = <"Detalles acerca de una condición de salud, lesión, incapacidad o cualquier otra cuerstión, univocamente identificadas, que impacta sobre el bienestar físico, mental y/o social de un individuo">
 					comment = <"La delineación entre el alcance de un problema versus el diagnóstico puede no ser fácil de lograr en la práctica. A los fines de la documentación clínica mediante este arquetipo, problema y diagnóstico son considerados un continuo, donde niveles incrementales de detalles y evidencia de apoyo otorgan mas peso a la etiqueta de \"diagnóstico\".">
 				>
@@ -1073,7 +1073,7 @@ Si la localización anatómica está incluida en el nombre del problema o diagn�
 					comment = <"Auch bekannt als „Ätiologie“. Die Codierung mit einer externen Terminologie wird nach Möglichkeit bevorzugt.">
 				>
 				["at0000.1"] = <
-					text = <"Problem/Diagnose">
+					text = <"*Problem/Diagnosis for Japan (en)">
 					description = <"Angaben über einen einzelnen identifizierten Gesundheitszustand, eine Verletzung, eine Behinderung oder ein Problem, welches das körperliche, geistige und/oder soziale Wohlergehen einer Einzelperson beeinträchtigt.">
 					comment = <"Eine klare Abgrenzung zwischen Problem und Diagnose ist in der Praxis nicht einfach zu erreichen. Für die Zwecke der klinischen Dokumentation mit diesem Archetyp werden Problem und Diagnose als ein Kontinuum betrachtet, mit zunehmendem Detaillierungsgrad und unterstützenden Beweisen, die in der Regel dem Etikett \"Diagnose\" Gewicht verleihen.">
 				>
@@ -1199,7 +1199,7 @@ If the anatomical location is included in the Problem/diagnosis name via precoor
 					comment = <"Also known as 'aetiology' or 'etiology'. Coding with an external terminology is preferred, where possible.">
 				>
 				["at0000.1"] = <
-					text = <"Problem/Diagnosis">
+					text = <"Problem/Diagnosis for Japan">
 					description = <"Details about a single identified health condition, injury, disability or any other issue which impacts on the physical, mental and/or social well-being of an individual.">
 					comment = <"Clear delineation between the scope of a problem versus a diagnosis is not easy to achieve in practice. For the purposes of clinical documentation with this archetype, problem and diagnosis are regarded as a continuum, with increasing levels of detail and supportive evidence usually providing weight towards the label of 'diagnosis'.">
 				>
@@ -1323,7 +1323,7 @@ If the anatomical location is included in the Problem/diagnosis name via precoor
 					comment = <"*Also known as 'aetiology' or 'etiology'. Coding with an external terminology is preferred, where possible.(en)">
 				>
 				["at0000.1"] = <
-					text = <"*Problem/Diagnosis(en)">
+					text = <"*Problem/Diagnosis for Japan (en)">
 					description = <"*Details about a single identified health condition, injury, disability or any other issue which impacts on the physical, mental and/or social well-being of an individual.(en)">
 					comment = <"*Clear delineation between the scope of a problem versus a diagnosis is not easy to achieve in practice. For the purposes of clinical documentation with this archetype, problem and diagnosis are regarded as a continuum, with increasing levels of detail and supportive evidence usually providing weight towards the label of 'diagnosis'.(en)">
 				>
@@ -1452,7 +1452,7 @@ Por exemplo: evolução do estado: inicial, inativo, resolvido, em remissão; es
 					comment = <"*Also known as 'aetiology' or 'etiology'. Coding with an external terminology is preferred, where possible.(en)">
 				>
 				["at0000.1"] = <
-					text = <"Problema /Diagnóstico">
+					text = <"*Problem/Diagnosis for Japan (en)">
 					description = <"Detalhes sobre uma única condição de saúde identificada, lesões, deficiência ou qualquer outra questão que tenha impacto sobre o bem-estar físico, mental e / ou social de um indivíduo.">
 					comment = <"Delimitação clara entre o âmbito de um problema em comparação a um diagnóstico, não é fácil de se conseguir na prática. Para fins de documentação clínica com este arquétipo, problema e diagnóstico são considerados como uma continuidade, com níveis crescentes de detalhes e evidência de apoio, geralmente fornecendo peso para o rótulo de \"diagnóstico\".">
 				>
@@ -1578,7 +1578,7 @@ Dersom den anatomiske lokaliseringen inkluderes i feltet \"Problem/diagnosenavn\
 					comment = <"*Also known as 'aetiology' or 'etiology'. Coding with an external terminology is preferred, where possible.(en)">
 				>
 				["at0000.1"] = <
-					text = <"Problem/diagnose">
+					text = <"*Problem/Diagnosis for Japan (en)">
 					description = <"Detaljer om én identifisert helsetilstand, skade, funksjonshemming eller annet forhold som påvirker et individs fysiske, mentale og/eller sosiale velvære.">
 					comment = <"Det er i praksis ikke lett å oppnå et klart skille mellom et problem og en diagnose. I klinisk dokumentasjon med denne arketypen ses problem og diagnose som et kontinuum, med økende krav til detaljer og støttende evidens for å underbygge en diagnose.">
 				>
@@ -1704,7 +1704,7 @@ Inskrivningsstatus: Inskrivning och utskrivning Prioritetsstatus: Primär och se
 					comment = <"*Also known as 'aetiology' or 'etiology'. Coding with an external terminology is preferred, where possible.(en)">
 				>
 				["at0000.1"] = <
-					text = <"Problem/Diagnos">
+					text = <"*Problem/Diagnosis for Japan (en)">
 					description = <"Detaljer av ett enskilt identifierat hälsotillstånd, skada, funktionshinder eller något annat problem som påverkar individens fysiska, psykiska och eller sociala välbefinnande.">
 					comment = <"Det är inte lätt att i praktiken uppnå en tydlig avgränsning mellan ett problem och en diagnos. Vid tillämpning av klinisk dokumentation med denna arketyp betraktas problem och diagnos som ett kontinuum, med plats för fler detaljer och stödjande bevis som vanligtvis ger tyngd till etiketten ”diagnos”.">
 				>
@@ -1829,7 +1829,7 @@ Inskrivningsstatus: Inskrivning och utskrivning Prioritetsstatus: Primär och se
 					comment = <"*Also known as 'aetiology' or 'etiology'. Coding with an external terminology is preferred, where possible.(en)">
 				>
 				["at0000.1"] = <
-					text = <"문제/진단">
+					text = <"*Problem/Diagnosis for Japan (en)">
 					description = <"한 개인의 신체, 정신 그리고/또는 사회적 웰빙에 영향을 주는 단일한 확인된 건강 성태, 상해, 장애 또는 다른 이슈에 대한 상세내용.">
 					comment = <"실무에서 문제와 진단의 범위 간의 명확한 구분을 하기 쉽지 않음. 이 아키타입을 통한 임상 문서의 목적을 위해서, 증가하는 상세내용의 수준과 일반적으로 '진단'의 표시에 대한 무게감을 제공하는 지지할 수 있는 증거를 가지고, 문제와 진단은 연속된 것(a continuum)으로 간주됨.">
 				>
@@ -1954,7 +1954,7 @@ If the anatomical location is included in the Problem/diagnosis name via precoor
 					comment = <"*Also known as 'aetiology' or 'etiology'. Coding with an external terminology is preferred, where possible.(en)">
 				>
 				["at0000.1"] = <
-					text = <"Ongelma/Diagnoosi">
+					text = <"*Problem/Diagnosis for Japan (en)">
 					description = <"Yksityiskohdat yksittäisestä tunnistetusta terveystilasta, vammasta, vammasta tai muusta aiheesta, joka vaikuttaa yksilön fyysiseen, henkiseen ja / tai sosiaaliseen hyvinvointiin.">
 					comment = <"*Clear delineation between the scope of a problem versus a diagnosis is not easy to achieve in practice. For the purposes of clinical documentation with this archetype, problem and diagnosis are regarded as a continuum, with increasing levels of detail and supportive evidence usually providing weight towards the label of 'diagnosis'.(en)">
 				>
@@ -2076,7 +2076,7 @@ If the anatomical location is included in the Problem/diagnosis name via precoor
 					comment = <"*Also known as 'aetiology' or 'etiology'. Coding with an external terminology is preferred, where possible.(en)">
 				>
 				["at0000.1"] = <
-					text = <"Problema/Diagnosi">
+					text = <"*Problem/Diagnosis for Japan (en)">
 					description = <"Dettagli su una specifica condizione di salute, una lesione, una disabilità o un qualsiasi altro problema individuato su un individuo che abbia un impatto sul benessere fisico, mentale e/o sociale.">
 					comment = <"Nella pratica, non è facile fare una distinzione netta tra gli ambiti dei concetti 'problema' e 'diagnosi'. Ai fini della documentazione clinica con questo archetipo, problema e diagnosi sono considerati un continuum, con livelli crescenti di dettagli ed evidenze a supporto a supporto dell'etichetta 'diagnosi'.">
 				>
@@ -2202,7 +2202,7 @@ Use this data element to record precoordinated anatomical locations. If the requ
 					comment = <"*Also known as 'aetiology' or 'etiology'. Coding with an external terminology is preferred, where possible.(en)">
 				>
 				["at0000.1"] = <
-					text = <"Probleem/Diagnose">
+					text = <"*Problem/Diagnosis for Japan (en)">
 					description = <"Informatie over een enkele vast te stellen medische aandoening, een letsel, beperking of andere zaak die invloed heeft op de fysieke, mentale en/of het sociale welbevinden van een individu.">
 					comment = <"*Clear delineation between the scope of a problem versus a diagnosis is not easy to achieve in practice. For the purposes of clinical documentation with this archetype, problem and diagnosis are regarded as a continuum, with increasing levels of detail and supportive evidence usually providing weight towards the label of 'diagnosis'.(en)">
 				>
@@ -2326,7 +2326,7 @@ If the anatomical location is included in the Problem/diagnosis name via precoor
 					comment = <"*Also known as 'aetiology' or 'etiology'. Coding with an external terminology is preferred, where possible.(en)">
 				>
 				["at0000.1"] = <
-					text = <"问题/诊断">
+					text = <"*Problem/Diagnosis for Japan (en)">
 					description = <"*Details about a single identified health condition, injury, disability or any other issue which impacts  the physical, mental and/or social wellbeing of an individual.(en)">
 					comment = <"*Clear delineation between the scope of a problem versus a diagnosis is not easy to achieve in practice. For the purposes of clinical documentation with this archetype, problem and diagnosis are regarded as a continuum, with increasing levels of detail and supportive evidence usually providing weight towards the label of 'diagnosis'.(en)">
 				>
