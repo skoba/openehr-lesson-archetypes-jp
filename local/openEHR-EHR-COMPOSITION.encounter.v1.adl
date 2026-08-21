@@ -461,7 +461,7 @@ No utilitzar per a representar el recurs FHIR del mateix nom - hi ha un abast i 
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"a44a432403898475469ecfd66dbd8bf6">
+		["MD5-CAM-1.0.1"] = <"e62f42a54a040897c62b0b1330cc9caf">
 		["build_uid"] = <"820ff293-1e51-478b-9694-a8fb43480cfe">
 		["revision"] = <"1.0.12">
 	>
@@ -760,9 +760,8 @@ ontology
 				>
 				["at0002"] = <
 					text = <"Extension">
-					description = <"ローカルコンテンツを用いてモデルを拡張したり、他の参照モデルや形式手法と整合させたりするために必要な追加情報。
-">
-					comment = <"例：ローカルな情報要件、FHIRに対応するための追加メタデータ">
+					description = <"ローカルコンテンツを用いてモデルを拡張したり、他の参照モデルや形式手法と整合させたりするために必要な追加情報。">
+					comment = <"ローカルコンテンツを用いてモデルを拡張したり、他の参照モデルや形式手法と整合させたりするために必要な追加情報。">
 				>
 			>
 		>
