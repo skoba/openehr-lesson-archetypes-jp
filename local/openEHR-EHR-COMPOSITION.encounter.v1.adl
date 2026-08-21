@@ -100,6 +100,11 @@ language
 			>
 			accreditation = <"MD, DEAA, MBA, spec in anesthesia, spec in tropical medicine.">
 		>
+		["ja"] = <
+			language = <[ISO_639-1::ja]>
+			author = <
+			>
+		>
 		["nl"] = <
 			language = <[ISO_639-1::nl]>
 			author = <
@@ -115,11 +120,6 @@ language
 				["name"] = <"Laura Moral Lopez">
 				["organisation"] = <"Sistema de Salut de Catalunya">
 				["email"] = <"lauramoral@catsalut.cat">
-			>
-		>
-		["ja"] = <
-			language = <[ISO_639-1::ja]>
-			author = <
 			>
 		>
 	>
@@ -461,7 +461,7 @@ No utilitzar per a representar el recurs FHIR del mateix nom - hi ha un abast i 
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"0cc2ffefdc01a267e919c0359a346988">
+		["MD5-CAM-1.0.1"] = <"a44a432403898475469ecfd66dbd8bf6">
 		["build_uid"] = <"820ff293-1e51-478b-9694-a8fb43480cfe">
 		["revision"] = <"1.0.12">
 	>
