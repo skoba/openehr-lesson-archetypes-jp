@@ -283,7 +283,7 @@ El modelo de referencia actual de openEHR sólo permite el registro de contexto 
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"d53e3ce8d405275493b5a1c99a57923c">
+		["MD5-CAM-1.0.1"] = <"bdff156d19bc8b9cdf6b04b540b72857">
 		["build_uid"] = <"e7bc32d1-2502-4a6a-86c8-b3f5816c43cc">
 		["revision"] = <"2.0.2">
 	>
@@ -481,7 +481,7 @@ ontology
 					description = <"@ internal @">
 				>
 				["at0008"] = <
-					text = <"*Extension (en)">
+					text = <"Extension">
 					description = <"ローカルコンテンツを用いてモデルを拡張したり、他の参照モデルや形式手法と整合させたりするために必要な追加情報。">
 					comment = <"ローカルコンテンツを用いてモデルを拡張したり、他の参照モデルや形式手法と整合させたりするために必要な追加情報。">
 				>
