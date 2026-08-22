@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.2.0",
+      "sem_ver" : "0.2.1",
       "build_uid" : "d75a9d96-7687-4b38-895a-45a474cd89ab",
-      "MD5-CAM-1.0.1" : "1d67bf14a3807a918cc7e524e2699040",
+      "MD5-CAM-1.0.1" : "3d5331d65b1890881975730e066b6091",
       "PARENT:MD5-CAM-1.0.1" : "bdff156d19bc8b9cdf6b04b540b72857"
     },
     "details" : {
@@ -592,6 +592,36 @@
             "children" : [ {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0002.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "occurrences" : "1..1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "0..1",
+                      "terminologyId" : {
+                        "value" : "ICD-11 for Mortality and Morbidity Statistic"
+                      },
+                      "constraint" : [ "ac0.2" ],
+                      "selectedTerminologies" : [ "ICD-11 for Mortality and Morbidity Statistic" ],
+                      "limitToList" : false
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
               "occurrences" : "0..0",
               "nodeId" : "at0079.1",
               "attributes" : [ ],
@@ -858,7 +888,11 @@
           }
         }
       },
-      "termBindings" : { },
+      "termBindings" : {
+        "ICD-11 for Mortality and Morbidity Statistic" : {
+          "ac0.2" : "terminology:http://id.who.int/icd/release/11/mms"
+        }
+      },
       "terminologyExtracts" : { },
       "valueSets" : {
         "ac0.1" : {
