@@ -1,0 +1,103 @@
+archetype (adl_version=1.4; uid=360dcb4b-3c4c-37af-ac06-891bdc13d523)
+	openEHR-EHR-CLUSTER.race.v1
+
+concept
+	[at0000]
+
+language
+	original_language = <[ISO_639-1::ja]>
+	translations = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+			author = <
+				["name"] = <"?">
+			>
+		>
+	>
+
+description
+	original_author = <
+		["name"] = <"">
+	>
+	lifecycle_state = <"Initial">
+	details = <
+		["ja"] = <
+			language = <[ISO_639-1::ja]>
+			purpose = <"Race ">
+		>
+		["en"] = <
+			language = <[ISO_639-1::en]>
+			purpose = <"Race information">
+			use = <"*(ja)">
+			misuse = <"*(ja)">
+		>
+	>
+	other_details = <
+		["MD5-CAM-1.0.1"] = <"75CBDD817228055FCC09588C952D09FD">
+		["build_uid"] = <"9f2ce8da-6073-3c3c-a34f-bce8199f77f4">
+	>
+
+definition
+	CLUSTER[at0000] matches {    -- Race
+		items cardinality matches {1..*; unordered} matches {
+			ELEMENT[at0001] occurrences matches {0..1} matches {    -- race
+				value matches {
+					DV_TEXT matches {*}
+				}
+			}
+			ELEMENT[at0002] occurrences matches {0..1} matches {    -- code
+				value matches {
+					DV_TEXT matches {*}
+				}
+			}
+			ELEMENT[at0003] occurrences matches {0..1} matches {    -- code id
+				value matches {
+					DV_TEXT matches {*}
+				}
+			}
+		}
+	}
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"*Race(ja)">
+					description = <"*Racial information for(ja)">
+				>
+				["at0001"] = <
+					text = <"*race(ja)">
+					description = <"***(ja)(ja)">
+				>
+				["at0002"] = <
+					text = <"*code(ja)">
+					description = <"***(ja)(ja)">
+				>
+				["at0003"] = <
+					text = <"*code id(ja)">
+					description = <"***(ja)(ja)">
+				>
+			>
+		>
+		["ja"] = <
+			items = <
+				["at0000"] = <
+					text = <"Race">
+					description = <"Racial information for MML">
+				>
+				["at0001"] = <
+					text = <"race">
+					description = <"**(ja)">
+				>
+				["at0002"] = <
+					text = <"code">
+					description = <"**(ja)">
+				>
+				["at0003"] = <
+					text = <"code id">
+					description = <"**(ja)">
+				>
+			>
+		>
+	>
